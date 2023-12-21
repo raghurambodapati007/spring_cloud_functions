@@ -17,7 +17,7 @@ public class SpringCloudFunctionsApplication implements CommandLineRunner {
 	FunctionCatalog functionCatalog;
 
 	@Value("${spring.cloud.stream.function.definition}")
-	private String functionChain;
+	private String functionChain ;
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudFunctionsApplication.class, args);
